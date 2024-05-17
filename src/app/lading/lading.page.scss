@@ -1,0 +1,80 @@
+.perfil{
+    height: 150px;
+    width: 150px;
+    border-radius: 15px;
+}
+.nombre{
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    
+}
+ion-content{
+    justify-items: center;
+}
+ion-item-divider{
+    background-color: grey;
+    border-radius: 15px;
+    width: 98%;
+    margin: 3px;
+    padding: 3px;
+}
+.datos{
+    display: flex;
+    flex-flow: column;
+}
+.datos2{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 25px;
+}
+.contacto{
+    align-content: center;
+    flex: 1;
+    margin: 2px;
+}
+.color{
+    color: white;
+    text-align: center;
+}
+.foto{
+    color: white;
+    flex-direction: column;
+    background-color: rgba(0, 0, 128, 0.366);
+    width: 45%;
+    text-align: center;
+    border: solid 7px rgba(0, 0, 128, 0.008);
+}
+.datos3{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    
+}
+.sobre{
+    width: 95%;
+    text-align: justify;
+    color: white;
+}
+.Idiomas{
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+
+}
+.sobre2{
+    width: 100%;
+    text-align: justify;
+    color: white;
+}
+.pas{
+    align-content: center;
+    margin: 2px;
+    padding: 3px;
+    justify-content: flex-end;
+}

@@ -1,0 +1,35 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>signup</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-title>Bienvenido</ion-title>
+  <div>
+    <p>Ingresa tu correo y tu contraseña</p>
+  </div>
+  
+  <form>
+    <div class="ion-padding">
+      <ion-item>
+        <ion-input placeholder="Correo"></ion-input>
+        <ion-icon name="person-outline"></ion-icon>
+      </ion-item>
+      <ion-item>
+        <ion-input placeholder="Contraseña"></ion-input>
+        <ion-icon name="lock-closed-outline"></ion-icon>
+      </ion-item>
+     </div>  
+     <div>
+        <a [routerLink] = "['/login']">Posees cuenta?</a>
+     </div>
+
+     <div>
+      <ion-button (click)="singUp()" [disabled]="!singUpForm.valid">
+        Registrar
+      </ion-button>
+     </div>
+
+  </form>
+</ion-content>
